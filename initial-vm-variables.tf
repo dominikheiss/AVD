@@ -1,21 +1,21 @@
 variable "rg_name" {
   type        = string
-  description = "How is the resource group called"
+  description = "rg-avd-default-prod-westeu-001"
 }
 
 variable "rg_location" {
   type        = string
-  description = "What is the resource group location"
+  description = "WestEurope"
 }
 
 variable "vm_name" {
   type      = string
-  description = "Enter the VM name"
+  description = "az-masterimage01"
 }
 
 variable "vm_size" {
   type      = string
-  description = "Give a vm size like Standard_B2MS"
+  description = "Standard_B2MS"
 }
 
 variable "vm_source_publisher" {
